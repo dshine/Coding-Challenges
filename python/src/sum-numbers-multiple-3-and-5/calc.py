@@ -1,11 +1,15 @@
 __pdoc__ = {'main': False}
 
 def sum_range_multiples_3_5(min, max):
-	""" 
+	"""
 	Takes 2 paramaters and caluclates the total of the numbers between the paramaters that are divisable by 3 or 5. 
-	
-	Returns the total
 
+	Args:
+		min (Integar): [Lower end of the numbers that we will calculate]
+		max (Integar): [Upper end of the numbers that we will calulate]
+
+	Returns:
+		Integar : Total of all number between min and max that are divisible by 3 or 5
 	"""
 	total = 0
 	for i in range(min,max):

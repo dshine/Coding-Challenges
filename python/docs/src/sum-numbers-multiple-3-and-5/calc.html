@@ -29,11 +29,15 @@
 <pre><code class="python">__pdoc__ = {&#39;main&#39;: False}
 
 def sum_range_multiples_3_5(min, max):
-        &#34;&#34;&#34; 
+        &#34;&#34;&#34;
         Takes 2 paramaters and caluclates the total of the numbers between the paramaters that are divisable by 3 or 5. 
-        
-        Returns the total
 
+        Args:
+                min (Integar): [Lower end of the numbers that we will calculate]
+                max (Integar): [Upper end of the numbers that we will calulate]
+
+        Returns:
+                Integar : Total of all number between min and max that are divisible by 3 or 5
         &#34;&#34;&#34;
         total = 0
         for i in range(min,max):
@@ -63,17 +67,32 @@ if __name__ == &#39;__main__&#39;:
 </code></dt>
 <dd>
 <div class="desc"><p>Takes 2 paramaters and caluclates the total of the numbers between the paramaters that are divisable by 3 or 5. </p>
-<p>Returns the total</p></div>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>min</code></strong> :&ensp;<code>Integar</code></dt>
+<dd>[Lower end of the numbers that we will calculate]</dd>
+<dt><strong><code>max</code></strong> :&ensp;<code>Integar</code></dt>
+<dd>[Upper end of the numbers that we will calulate]</dd>
+</dl>
+<h2 id="returns">Returns</h2>
+<dl>
+<dt><code>Integar </code></dt>
+<dd>Total of all number between min and max that are divisible by 3 or 5</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def sum_range_multiples_3_5(min, max):
-        &#34;&#34;&#34; 
+        &#34;&#34;&#34;
         Takes 2 paramaters and caluclates the total of the numbers between the paramaters that are divisable by 3 or 5. 
-        
-        Returns the total
 
+        Args:
+                min (Integar): [Lower end of the numbers that we will calculate]
+                max (Integar): [Upper end of the numbers that we will calulate]
+
+        Returns:
+                Integar : Total of all number between min and max that are divisible by 3 or 5
         &#34;&#34;&#34;
         total = 0
         for i in range(min,max):
